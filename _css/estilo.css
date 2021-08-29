@@ -12,6 +12,15 @@ p {
     text-indent: 50px;
 }
 
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
  #icone {
     position: absolute;
     left: 960px;
@@ -44,6 +53,7 @@ p {
 body {
     background-color:#dddddd;
     color: rgba(0,0,0,1);
+    font-family: arial, sans-serif;
 }
 
 #interface {
@@ -94,7 +104,7 @@ figure.foto-legenda:hover figcaption {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 500px;
+    left: 750px;
 }
 
 #menu li {
@@ -124,10 +134,43 @@ figure.foto-legenda:hover figcaption {
 
 #corpo {
     display: block;
-    width: 520px;
+    width: 500px;
     float: left;
     border-right: 1px solid #606060;
     padding-right: 15px;
+}
+
+#noticia-principal h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+#cabecalho-artigo h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+#cabecalho-artigo h3 {
+    font-size: 12px;
+    color: #606060;
+
+}
+
+.direita {
+    text-align: right;
 }
 
 #tabela {
@@ -140,13 +183,58 @@ figure.foto-legenda:hover figcaption {
 #tabela td {
     border: 1px solid #606060;
     padding: 10px;
-    text-align: ;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tabela td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    text-align: top;
+    font-weight: bold;
+}
+
+#tabela td.cd {
+    background-color: #cecece;
+    text-align: left;
+}
+
+#tabela caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+#tabela caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
 }
 
 #lateral {
     display: block;
     width: 350px;
     float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+#lateral  h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+#lateral  h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
 }
 
 #rodape {
